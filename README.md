@@ -11,6 +11,15 @@
 
 وتجد [هنا](https://github.com/dev-fos/islampodcast/wiki) تطبيقات مقترحة , وشرح مفصل لطريقة استخدام الملفات .
 
+
+<div dir="rtl" >
+  
+| الاسم | تحميل الملف المُجمٌع |
+| --- | --- |
+| عبد المحسن القاسم | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) |
+
+</div>
+
 ----
 
 ### يتم تحديث الملفات بشكل دورى لإضافة المزيد من المحتوى .
