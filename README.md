@@ -20,7 +20,7 @@
 > https://t.me/islampodcast1
 
 
-### من التطبيات المستخدمة فى بناء هذا المشروع :-
+### من التطبيقات المستخدمة فى بناء هذا المشروع :-
 
 > https://github.com/ggocek/mp3scraper
 
