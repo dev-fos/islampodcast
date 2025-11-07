@@ -14,9 +14,9 @@
 
 <div dir="rtl" >
   
-| الاسم | تحميل الملف المُجمٌع |
-| --- | --- |
-| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) |
+| الاسم | تحميل الملف المُجمٌع | عدد التحميلات |
+| --- | --- | --- |
+| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) | [![Hits](https://hits.sh/github.com/silentsoft/hits.svg)](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) |
 
 </div>
 
