@@ -8,7 +8,8 @@
     <language>ar</language>
     <lastBuildDate>Thu, 30 Oct 2025 18:33:35 Z</lastBuildDate>
     <generator>mp3scraper v2023.9.19.0, mp3scrApi v2022.5.6.1, by Gary Gocek, http://www.gocek.org/software/</generator>
-    <itunes:image href="https://a-alqasim.com/wp-content/uploads/2021/07/14421122-vlcsnap-2021-07-02-16h28m32s061.jpg" />
+    <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/2/2c/Abdul_Mohsin_Al-Qasim.jpg" />
+    <!--مصدر الصورة : https://commons.wikimedia.org/wiki/File:Abdul_Mohsin_Al-Qasim.jpg?uselang=ar -->
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Islam" />
     </itunes:category>
@@ -1981,4 +1982,5 @@ https://t.me/islampodcast1
       <link>https://a-alqasim.com/sounds-explain-cats/التبيان-في-آداب-حملة-القرآن/</link>
     </item>
   </channel>
+
 </rss>
