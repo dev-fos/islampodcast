@@ -17,6 +17,7 @@
 | الاسم | تحميل الملف المُجَمّع |
 | --- | --- |
 | الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) |
+| الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالرزاق-البدر.opml) |
 
 </div>
 
