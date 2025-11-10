@@ -8,7 +8,7 @@
     <language>ar</language>
     <lastBuildDate>Sun, 09 Nov 2025 19:43:33 Z</lastBuildDate>
     <generator>mp3scraper v2023.9.19.0, mp3scrApi v2022.5.6.1, by Gary Gocek, http://www.gocek.org/software/</generator>
-    <itunes:image href="https://i1.sndcdn.com/artworks-000027165776-3bev6n-t500x500.jpg" />
+    <itunes:image href="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/8f275333de429c9ced6128a8dff756e3.jpg" />
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Islam" />
     </itunes:category>
@@ -18,7 +18,7 @@
     <itunes:complete>Yes</itunes:complete>
     <itunes:type>Serial</itunes:type>
     <image>
-      <url>https://i1.sndcdn.com/artworks-000027165776-3bev6n-t500x500.jpg</url>
+      <url>https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/8f275333de429c9ced6128a8dff756e3.jpg</url>
       <title>شرح الوابل الصيب لابن القيم | الشيخ د. عبد الرزاق بن عبد المحسن البدر</title>
       <link>https://www.al-badr.net/sub/371</link>
     </image>
@@ -1147,3 +1147,4 @@ https://t.me/islampodcast1
   </channel>
 
 </rss>
+
