@@ -32,7 +32,9 @@
 
 ### من التطبيقات المستخدمة فى بناء هذا المشروع :-
 
-> https://github.com/ggocek/mp3scraper
+> [mp3scrapi](https://github.com/dev-fos/mp3scrapi)
+
+> [mp3scraper](https://github.com/dev-fos/mp3scraper)
 
 
 _نسأل الله لنا ولكم القَبول والعفو والسداد_
