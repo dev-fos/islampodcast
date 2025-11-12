@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ أ.د.خالد السبت</title>
+    <dateCreated>03 Nov 25 14:33:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="شرح مختصر أخلاق حملة القرآن للآجري | الشيخ أ.د. خالد السبت" title="شرح مختصر أخلاق حملة القرآن للآجري | الشيخ أ.د. خالد السبت" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/خالد-السبت/شرح-مختصر-أخلاق-حملة-القرآن-للآجري.xml" htmlUrl="https://khaledalsabt.com/explanations/book/221/شرح-مختصر-اخلاق-حملة-القران-للاجري/index" />
+    <outline text="معاني الأذكار - حصن المسلم | الشيخ أ.د. خالد السبت" title="معاني الأذكار - حصن المسلم | الشيخ أ.د. خالد السبت" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/خالد-السبت/معاني-الأذكار-حصن-المسلم.xml" htmlUrl="https://khaledalsabt.com/explanations/book/222/معاني-الاذكار---حصن-المسلم/index" />
+  </body>
+</opml>
