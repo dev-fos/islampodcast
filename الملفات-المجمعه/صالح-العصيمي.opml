@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ د. صالح العُصَيمِيّ</title>
+    <dateCreated>15 Nov 25 14:33:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="تقريب شرح (الأربعين النووية) | الشيخ د. صالح العُصَيمِيّ" title="تقريب شرح (الأربعين النووية) | الشيخ د. صالح العُصَيمِيّ" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/صالح-العصيمي/تقريب-شرح-(الأربعين-النووية).xml" htmlUrl="https://j-eman.net/sounds/simplifyscience/cd1fc69b-4821-40ea-8044-c91bbae40ec6/1" />
+    <outline text="برنامج مهمات العلم الثاني عشر 1442 | الشيخ د. صالح العُصَيمِيّ" title="برنامج مهمات العلم الثاني عشر 1442 | الشيخ د. صالح العُصَيمِيّ" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/صالح-العصيمي/برنامج-مهمات-العلم-الثاني-عشر-1442.xml" htmlUrl="https://j-eman.net/sounds/lessons/35a4d85c-d5db-45d7-a8ed-9bae74411dde/1" />
+  </body>
+</opml>
