@@ -8,7 +8,7 @@
     <language>ar</language>
     <lastBuildDate>Tue, 11 Nov 2025 18:25:22 Z</lastBuildDate>
     <generator>mp3scraper v2023.9.19.0, mp3scrApi v2022.5.6.1, by Gary Gocek, http://www.gocek.org/software/</generator>
-    <itunes:image href="https://raw.githubusercontent.com/dev-fos/islampodcast/main/خالد-السبت/khaledalsabt.jpg" />
+    <itunes:image href="https://raw.githubusercontent.com/dev-fos/islampodcast/main/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA/khaledalsabt.jpg" />
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Islam" />
     </itunes:category>
@@ -18,7 +18,7 @@
     <itunes:complete>Yes</itunes:complete>
     <itunes:type>Serial</itunes:type>
     <image>
-      <url>https://raw.githubusercontent.com/dev-fos/islampodcast/main/خالد-السبت/khaledalsabt.jpg</url>
+      <url>https://raw.githubusercontent.com/dev-fos/islampodcast/main/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA/khaledalsabt.jpg</url>
       <title>شرح مختصر أخلاق حملة القرآن للآجري | الشيخ أ.د. خالد بن عثمان السبت</title>
       <link>https://khaledalsabt.com/explanations/book/221/شرح-مختصر-اخلاق-حملة-القران-للاجري/index</link>
     </image>
@@ -155,4 +155,5 @@ https://t.me/islampodcast1
       <link>https://khaledalsabt.com/explanations/book/221/شرح-مختصر-اخلاق-حملة-القران-للاجري/index</link>
     </item>
   </channel>
+
 </rss>
