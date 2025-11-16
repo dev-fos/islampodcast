@@ -8,7 +8,7 @@
     <language>ar</language>
     <lastBuildDate>Sat, 15 Nov 2025 14:47:23 Z</lastBuildDate>
     <generator>mp3scraper v2023.9.19.0, mp3scrApi v2022.5.6.1, by Gary Gocek, http://www.gocek.org/software/</generator>
-    <itunes:image href="https://raw.githubusercontent.com/dev-fos/islampodcast/main/صالح-العصيمي/alosyme.jpg" />
+    <itunes:image href="https://raw.githubusercontent.com/dev-fos/islampodcast/main/%D8%B5%D8%A7%D9%84%D8%AD-%D8%A7%D9%84%D8%B9%D8%B5%D9%8A%D9%85%D9%8A/alosyme.jpg" />
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Islam" />
     </itunes:category>
@@ -18,7 +18,7 @@
     <itunes:complete>Yes</itunes:complete>
     <itunes:type>Serial</itunes:type>
     <image>
-      <url>https://raw.githubusercontent.com/dev-fos/islampodcast/main/صالح-العصيمي/alosyme.jpg</url>
+      <url>https://raw.githubusercontent.com/dev-fos/islampodcast/main/%D8%B5%D8%A7%D9%84%D8%AD-%D8%A7%D9%84%D8%B9%D8%B5%D9%8A%D9%85%D9%8A/alosyme.jpg</url>
       <title>تقريب شرح (الأربعين النووية) | الشيخ د. صالح العُصَيمِيّ</title>
       <link>https://j-eman.net/sounds/simplifyscience/cd1fc69b-4821-40ea-8044-c91bbae40ec6/1</link>
     </image>
@@ -1013,4 +1013,5 @@ https://t.me/islampodcast1
       <link>https://j-eman.net/sounds/simplifyscience/cd1fc69b-4821-40ea-8044-c91bbae40ec6/1</link>
     </item>
   </channel>
+
 </rss>
