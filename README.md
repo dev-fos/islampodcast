@@ -16,10 +16,10 @@
   
 | الاسم | تحميل الملف المُجَمّع | 
 | --- | --- | 
-| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالمحسن-القاسم.opml) |
-| الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/عبدالرزاق-البدر.opml) |
-| الشيخ أ.د. خالد السبت | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/خالد-السبت.opml) |
-| الشيخ د. صالح العُصَيمِيّ | [:floppy_disk:](https://raw.githubusercontent.com/dev-fos/islampodcast/main/الملفات-المجمعه/صالح-العصيمي.opml) |
+| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml) |
+| الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml) |
+| الشيخ أ.د. خالد السبت | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml) |
+| الشيخ د. صالح العُصَيمِيّ | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml) |
 
 </div>
 
