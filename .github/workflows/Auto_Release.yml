@@ -1,0 +1,77 @@
+name: Auto Release on Folder Change
+
+on:
+  push:
+    branches:
+      - main # or your default branch, e.g., master
+    paths:
+      - 'الملفات-المجمعه/**' # Specify the folder to watch
+
+jobs:
+  create-release-and-upload:
+    runs-on: ubuntu-latest
+    # Ensure this job only runs if files in the specified path actually changed in the push
+    permissions:
+      contents: write # This grants the necessary permission for actions like creating releases or pushing commits
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Needed to calculate commit history for potential release notes
+
+      - name: Set up environment variables for release
+        id: set_env
+        run: |
+          # Generate a dynamic tag and release name based on the current date/time or commit hash
+          # A more robust versioning strategy might involve a separate action or tool
+          RELEASE_TAG="$(date +'%Y.%m.%d-%H.%M.%S')"
+          echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
+          echo "ASSET_PATH=الملفات-المجمعه" >> $GITHUB_ENV # The folder to upload
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Default token has permissions
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          release_name: تحديث ${{ env.RELEASE_TAG }}
+          body: |
+            لتحميل الملف المطلوب , اضغط على اسم المحتوى :
+            <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml" >الشيخ د. عبد المحسن القاسم</a>
+            <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml" >الشيخ د. عبد الرزاق البدر</a>
+            <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml" >الشيخ أ.د. خالد السبت</a>
+            <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml" >الشيخ د. صالح العُصَيمِيّ</a>
+  
+          draft: false # Set to true to create a draft release
+          prerelease: false
+
+   #   - name: Upload Release Assets
+   #     uses: actions/upload-release-asset@v1
+   #     env:
+   #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   #     with:
+   #       # Use a glob pattern to upload all files within the folder
+   #       upload_url: ${{ steps.create_release.outputs.upload_url }}
+   #       asset_path: ${{ env.ASSET_PATH }}
+   #       asset_name: ${{ env.ASSET_PATH }}_files.zip # Note: the upload action typically takes one file path, so you may need to zip the folder first.
+   #       asset_content_type: application/zip # Adjust content type based on the file type
+          
+      - name: Upload Multiple Assets to Release
+        # Use a single step with the GitHub CLI to upload multiple files
+        # The GitHub CLI is pre-installed on all GitHub runners
+        run: |
+          # Use a loop or glob pattern to upload multiple files
+          # The files will be uploaded without compression
+          TAG="${{ env.RELEASE_TAG }}"
+          UPLOAD_URL="${{ steps.create_release.outputs.upload_url }}"
+          FOLDER_PATH="الملفات-المجمعه" # The folder with files to upload
+
+          # Example for uploading all files in the folder
+          for FILE_PATH in "$FOLDER_PATH"/*; do
+            if [ -f "$FILE_PATH" ]; then
+              gh release upload "$TAG" "$FILE_PATH" --clobber
+            fi
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
