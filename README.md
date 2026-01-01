@@ -14,12 +14,12 @@
 
 <div dir="rtl" >
   
-| الاسم | تحميل الملف المُجَمّع | 
-| --- | --- | 
-| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml) |
-| الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml) |
-| الشيخ أ.د. خالد السبت | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml) |
-| الشيخ د. صالح العُصَيمِيّ | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml) |
+| الاسم | تحميل الملف المُجَمّع | إجمالى مرات التحميل |
+| --- | --- | --- |
+| الشيخ د. عبد المحسن القاسم | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/a-alqasim.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/al-badr.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| الشيخ أ.د. خالد السبت | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/khaledalsabt.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| الشيخ د. صالح العُصَيمِيّ | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/al-osyme.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 
 </div>
 
