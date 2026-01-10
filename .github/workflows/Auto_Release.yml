@@ -3,7 +3,7 @@ name: Auto Release on Folder Change
 on:
   push:
     branches:
-      - test # or your default branch, e.g., master
+      - main # or your default branch, e.g., master
     paths:
       - 'الملفات-المجمعه/**' # Specify the folder to watch
 
