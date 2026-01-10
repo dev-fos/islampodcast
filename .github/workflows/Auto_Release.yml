@@ -3,7 +3,7 @@ name: Auto Release on Folder Change
 on:
   push:
     branches:
-      - main # or your default branch, e.g., master
+      - test # or your default branch, e.g., master
     paths:
       - 'الملفات-المجمعه/**' # Specify the folder to watch
 
@@ -28,6 +28,37 @@ jobs:
           echo "RELEASE_TAG=$RELEASE_TAG" >> $GITHUB_ENV
           echo "ASSET_PATH=الملفات-المجمعه" >> $GITHUB_ENV # The folder to upload
 
+      - name: Get latest release tag
+        id: get_latest_tag
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null)
+          if [ -z "$LATEST_TAG" ]; then
+            # If no tags exist, use a default base (e.g., the first commit SHA)
+            LATEST_TAG=$(git rev-list --max-parents=0 HEAD)
+          fi
+          echo "LATEST_TAG=$LATEST_TAG" >> $GITHUB_OUTPUT
+          
+      - name: Get changed files
+        id: get_files
+        run: |
+          # Disable quoting of UTF-8 filenames
+          git config core.quotepath false 
+          
+          TARGET_DIR="الملفات-المجمعه"
+
+          # Get list of changed files between the latest tag and the current HEAD
+          CHANGED_FILES=$(git diff --name-only ${{ steps.get_latest_tag.outputs.LATEST_TAG }} HEAD)
+
+          FILTERED=$(printf "%s\n" "$CHANGED_FILES" | grep "^${TARGET_DIR}/" || true)
+          
+          # Format the list into a markdown string with bullet points
+          FILE_LIST=$(printf "%s\n" "$FILTERED" | sed 's/^/* /')
+          # GitHub expects newlines as %0A and percent signs as %25.
+          ENCODED="${FILE_LIST//'%'/'%25'}"
+          ENCODED="${ENCODED//$'\n'/'%0A'}"
+          ENCODED="${ENCODED//$'\r'/'%0D'}"
+          echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+          
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -37,7 +68,11 @@ jobs:
           tag_name: ${{ env.RELEASE_TAG }}
           release_name: تحديث ${{ env.RELEASE_TAG }}
           body: |
-            لتحميل الملف المطلوب , اضغط على اسم المحتوى :
+          
+            ## تم تحديث الملف التالى فى هذا الاصدار :
+            ${{ steps.get_files.outputs.RELEASE_NOTES }}
+            
+            ## لتحميل الملف المطلوب , اضغط على اسم المحتوى :
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml" >الشيخ د. عبد المحسن القاسم</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml" >الشيخ د. عبد الرزاق البدر</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml" >الشيخ أ.د. خالد السبت</a>
