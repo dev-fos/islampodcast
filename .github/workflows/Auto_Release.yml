@@ -73,7 +73,7 @@ jobs:
           FULL_DIFF=$(git diff --name-only "$LATEST_TAG" HEAD)
 
           # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${STAT}"$'\n\n'"${FULL_DIFF}"
+            CONTENT="${STAT}"$'\n\n'"${AR_SUMMARY}"
           
 
           ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
