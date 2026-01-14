@@ -70,9 +70,7 @@ jobs:
           STAT=$(git diff --stat "$LATEST_TAG" HEAD)
 
           # احصل على diff الكامل لتلوين الإضافات/الحذف
-          FULL_DIFF1=$(git diff --stat "$LATEST_TAG" HEAD  | head -n -1)
-
-          FULL_DIFF2="```${FULL_DIFF1}```"
+          FULL_DIFF=$(git diff --stat "$LATEST_TAG" HEAD  | head -n -1)
 
           ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
           # ENCODED="${CONTENT//'%'/'%25'}"
@@ -90,11 +88,13 @@ jobs:
            AR_SUMMARY="<div dir="rtl"> ${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-) </div>"
 
            # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${FULL_DIFF2}"$'\n\n'"${AR_SUMMARY}"
+            CONTENT="${FULL_DIFF}"
+            CONTENT2=$'\n\n'"${AR_SUMMARY}"
                    
           {
            echo "RELEASE_NOTES<<EOF"
-           echo "$CONTENT"
+           echo "```$CONTENT```"
+           echo "$CONTENT2"
            echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
