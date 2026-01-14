@@ -128,9 +128,10 @@ jobs:
             ## قائمة بكل التعديلات التى تمت :
 
             </div>
-            
-            > ${{ steps.changelog.outputs.RELEASE_NOTES }}
-            
+
+            ```
+             ${{ steps.changelog.outputs.RELEASE_NOTES }}
+            ```
             
           draft: false # Set to true to create a draft release
           prerelease: false
