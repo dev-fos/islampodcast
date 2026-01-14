@@ -72,7 +72,7 @@ jobs:
           # احصل على diff الكامل لتلوين الإضافات/الحذف
           FULL_DIFF1=$(git diff --stat "$LATEST_TAG" HEAD  | head -n -1)
 
-          FULL_DIFF2= "```${FULL_DIFF}```"
+          FULL_DIFF2="```${FULL_DIFF1}```"
 
           ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
           # ENCODED="${CONTENT//'%'/'%25'}"
