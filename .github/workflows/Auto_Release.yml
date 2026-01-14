@@ -79,7 +79,7 @@ jobs:
           # ENCODED="${ENCODED//$'\n'/'%0A'}"
           # ENCODED="${ENCODED//$'\r'/'%0D'}"
 
-          # echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+           echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
 
             FILES=$(echo "$FULL_DIFF" | grep -oE '[0-9]+ files? changed' | grep -oE '[0-9]+')
           # عدد الإضافات (قد لا تكون موجودة إذا كانت 0)
