@@ -113,15 +113,17 @@ jobs:
           
             ## الملف المستهدف فى هذا التحديث :
             ${{ steps.get_files.outputs.RELEASE_NOTES }}
-            
+
+            <div dir="rtl">
             ## لتحميل الملف المطلوب , اضغط على اسم المحتوى :
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/a-alqasim.opml" >الشيخ د. عبد المحسن القاسم</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml" >الشيخ د. عبد الرزاق البدر</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml" >الشيخ أ.د. خالد السبت</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml" >الشيخ د. صالح العُصَيمِيّ</a>
-
+          
             ## قائمة بكل التعديلات التى تمت :
-            ${{ steps.changelog.outputs.RELEASE_NOTES }}
+            > ${{ steps.changelog.outputs.RELEASE_NOTES }}
+            </div>
             
           draft: false # Set to true to create a draft release
           prerelease: false
