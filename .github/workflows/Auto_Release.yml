@@ -90,7 +90,7 @@ jobs:
            AR_SUMMARY="<div dir="rtl"> ${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-) </div>"
 
            # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${FULL_DIFF}"$'\n\n'"${AR_SUMMARY}"
+            CONTENT="```${FULL_DIFF}```"$'\n\n'"${AR_SUMMARY}"
                    
           {
            echo "RELEASE_NOTES<<EOF"
@@ -129,9 +129,9 @@ jobs:
 
             </div>
 
-            ```
+          
              ${{ steps.changelog.outputs.RELEASE_NOTES }}
-            ```
+            
             
           draft: false # Set to true to create a draft release
           prerelease: false
