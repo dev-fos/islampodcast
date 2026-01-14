@@ -75,12 +75,20 @@ jobs:
           # دمج الإحصائية مع الـ diff الملون
           CONTENT="${STAT}"$'\n\n'"${FULL_DIFF}"
 
-          # ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
-          ENCODED="${CONTENT//'%'/'%25'}"
-          ENCODED="${ENCODED//$'\n'/'%0A'}"
-          ENCODED="${ENCODED//$'\r'/'%0D'}"
+          ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
+          # ENCODED="${CONTENT//'%'/'%25'}"
+          # ENCODED="${ENCODED//$'\n'/'%0A'}"
+          # ENCODED="${ENCODED//$'\r'/'%0D'}"
 
-          echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+          # echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+          
+          {
+           echo "RELEASE_NOTES<<EOF"
+           echo "$CONTENT"
+           echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          
 
           
       - name: Create Release
