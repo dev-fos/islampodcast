@@ -90,7 +90,7 @@ jobs:
            AR_SUMMARY="${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-)"
 
            # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${STAT}"$'\n\n'"${AR_SUMMARY}"
+            CONTENT="${FULL_DIFF}"$'\n\n'"${AR_SUMMARY}"
                    
           {
            echo "RELEASE_NOTES<<EOF"
