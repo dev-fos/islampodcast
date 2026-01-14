@@ -70,7 +70,7 @@ jobs:
           STAT=$(git diff --stat "$LATEST_TAG" HEAD)
 
           # احصل على diff الكامل لتلوين الإضافات/الحذف
-          FULL_DIFF=$(git diff --name-only "$LATEST_TAG" HEAD)
+          FULL_DIFF=$(git diff --name-status "$LATEST_TAG" HEAD)
 
 
 
