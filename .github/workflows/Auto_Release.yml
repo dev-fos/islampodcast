@@ -58,6 +58,30 @@ jobs:
           ENCODED="${ENCODED//$'\n'/'%0A'}"
           ENCODED="${ENCODED//$'\r'/'%0D'}"
           echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+
+      - name: Generate colored diff stat
+        id: changelog
+        run: |
+          git config core.quotepath false
+          # TARGET_DIR="path/to/folder"
+          LATEST_TAG="${{ steps.get_latest_tag.outputs.LATEST_TAG }}"
+
+          # احصل على إحصائية diff‑stat داخل المجلد
+          STAT=$(git diff --stat "$LATEST_TAG" HEAD)
+
+          # احصل على diff الكامل لتلوين الإضافات/الحذف
+          FULL_DIFF=$(git diff "$LATEST_TAG" HEAD)
+
+          # دمج الإحصائية مع الـ diff الملون
+          CONTENT="${STAT}"$'\n\n'"${FULL_DIFF}"
+
+          # ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
+          ENCODED="${CONTENT//'%'/'%25'}"
+          ENCODED="${ENCODED//$'\n'/'%0A'}"
+          ENCODED="${ENCODED//$'\r'/'%0D'}"
+
+          echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
+
           
       - name: Create Release
         id: create_release
@@ -69,7 +93,7 @@ jobs:
           release_name: تحديث ${{ env.RELEASE_TAG }}
           body: |
           
-            ## تم تحديث الملف التالى فى هذا الاصدار :
+            ## الملف المستهدف فى هذا التحديث :
             ${{ steps.get_files.outputs.RELEASE_NOTES }}
             
             ## لتحميل الملف المطلوب , اضغط على اسم المحتوى :
@@ -77,7 +101,10 @@ jobs:
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml" >الشيخ د. عبد الرزاق البدر</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml" >الشيخ أ.د. خالد السبت</a>
             <a href="https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml" >الشيخ د. صالح العُصَيمِيّ</a>
-  
+
+            ## قائمة بكل التعديلات التى تمت :
+            ${{ steps.changelog.outputs.RELEASE_NOTES }}
+            
           draft: false # Set to true to create a draft release
           prerelease: false
 
