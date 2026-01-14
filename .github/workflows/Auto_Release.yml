@@ -88,13 +88,11 @@ jobs:
            AR_SUMMARY="<div dir="rtl"> ${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-) </div>"
 
            # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${FULL_DIFF}"
-            CONTENT2=$'\n\n'"${AR_SUMMARY}"
-                   
+            CONTENT="${FULL_DIFF}"$'\n\n'"${AR_SUMMARY}"
+            
           {
            echo "RELEASE_NOTES<<EOF"
-           echo "```$CONTENT```"
-           echo "$CONTENT2"
+           echo "$CONTENT"
            echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
