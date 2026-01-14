@@ -72,7 +72,9 @@ jobs:
           # احصل على diff الكامل لتلوين الإضافات/الحذف
           FULL_DIFF=$(git diff --name-only "$LATEST_TAG" HEAD)
 
-
+          # دمج الإحصائية مع الـ diff الملون
+            CONTENT="${STAT}"$'\n\n'"${FULL_DIFF}"
+          
 
           ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
           # ENCODED="${CONTENT//'%'/'%25'}"
@@ -89,8 +91,6 @@ jobs:
 
            AR_SUMMARY="${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-)"
 
-          # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${STAT}"$'\n\n'"${FULL_DIFF}"
           
           {
            echo "RELEASE_NOTES<<EOF"
