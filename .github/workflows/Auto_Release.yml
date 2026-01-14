@@ -72,9 +72,7 @@ jobs:
           # احصل على diff الكامل لتلوين الإضافات/الحذف
           FULL_DIFF=$(git diff --name-only "$LATEST_TAG" HEAD)
 
-          # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${STAT}"$'\n\n'"${AR_SUMMARY}"
-          
+
 
           ## ترميز المتغيّر لتخزينه في GITHUB_OUTPUT
           # ENCODED="${CONTENT//'%'/'%25'}"
@@ -83,15 +81,17 @@ jobs:
 
           #  echo "RELEASE_NOTES=$ENCODED" >> "$GITHUB_OUTPUT"
 
-            FILES=$(echo "$FULL_DIFF" | grep -oE '[0-9]+ files? changed' | grep -oE '[0-9]+')
+            FILES=$(echo "$STAT" | grep -oE '[0-9]+ files? changed' | grep -oE '[0-9]+')
           # عدد الإضافات (قد لا تكون موجودة إذا كانت 0)
-            INSERTIONS=$(echo "$FULL_DIFF" | grep -oE '[0-9]+ insertions?' | grep -oE '[0-9]+' || echo "0")
+            INSERTIONS=$(echo "$STAT" | grep -oE '[0-9]+ insertions?' | grep -oE '[0-9]+' || echo "0")
           # عدد الحذف (قد لا تكون موجودة إذا كانت 0)
-           DELETIONS=$(echo "$FULL_DIFF" | grep -oE '[0-9]+ deletions?' | grep -oE '[0-9]+' || echo "0")
+           DELETIONS=$(echo "$STAT" | grep -oE '[0-9]+ deletions?' | grep -oE '[0-9]+' || echo "0")
 
            AR_SUMMARY="${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-)"
 
-          
+           # دمج الإحصائية مع الـ diff الملون
+            CONTENT="${STAT}"$'\n\n'"${AR_SUMMARY}"
+                   
           {
            echo "RELEASE_NOTES<<EOF"
            echo "$CONTENT"
