@@ -88,7 +88,9 @@ jobs:
            AR_SUMMARY="<div dir="rtl"> ${FILES} ملفات تم تعديلها، ${INSERTIONS} إضافة(+)، ${DELETIONS} حذف(-) </div>"
 
            # دمج الإحصائية مع الـ diff الملون
-            CONTENT="${FULL_DIFF}"$'\n\n'"${AR_SUMMARY}"
+            CONTENT=$(printf "%s\n" "$FULL_DIFF" | sed 's/^/* /')$'\n\n'"${AR_SUMMARY}"
+
+            
             
           {
            echo "RELEASE_NOTES<<EOF"
