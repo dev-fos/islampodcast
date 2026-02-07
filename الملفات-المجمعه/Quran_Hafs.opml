@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | القرآن الكريم - رواية حفص عن عاصم</title>
+    <dateCreated>07 Jan 26 18:53:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="القارئ أحمد عامر - رواية حفص عن عاصم" title="القارئ أحمد عامر - رواية حفص عن عاصم" type="rss" xmlUrl="https://www.mp3quran.net/podcast/Aamer.rss" htmlUrl="http://www.mp3quran.net/"/>
+    <outline text="القارئ عبدالباسط عبدالصمد - رواية حفص عن عاصم" title="القارئ عبدالباسط عبدالصمد - رواية حفص عن عاصم" type="rss" xmlUrl="https://www.mp3quran.net/podcast/basit.rss" htmlUrl="http://www.mp3quran.net/"/>
+    <outline text="القارئ محمد صديق المنشاوي - رواية حفص عن عاصم" title="القارئ محمد صديق المنشاوي - رواية حفص عن عاصم" type="rss" xmlUrl="https://www.mp3quran.net/podcast/minsh.rss" htmlUrl="http://www.mp3quran.net/"/>
+    <outline text="القارئ محمود خليل الحصري - رواية حفص عن عاصم" title="القارئ محمود خليل الحصري - رواية حفص عن عاصم" type="rss" xmlUrl="https://www.mp3quran.net/podcast/husr1.rss" htmlUrl="http://www.mp3quran.net/"/>
+    <outline text="القارئ محمود علي البنا - رواية حفص عن عاصم" title="القارئ محمود علي البنا - رواية حفص عن عاصم" type="rss" xmlUrl="https://www.mp3quran.net/podcast/bna.rss" htmlUrl="http://www.mp3quran.net/"/>
+  </body>
+</opml>
