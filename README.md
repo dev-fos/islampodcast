@@ -20,6 +20,7 @@
 | الشيخ د. عبد الرزاق البدر | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-badr.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/al-badr.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ أ.د. خالد السبت | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/khaledalsabt.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/khaledalsabt.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ د. صالح العُصَيمِيّ | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/al-osyme.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/al-osyme.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| القرآن الكريم (رواية حفص عن عاصم) | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/Quran_Hafs.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/Quran_Hafs.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 
 </div>
 
