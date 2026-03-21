@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ أ.د.خالد السبت</title>
+    <dateCreated>21 Mar 26 14:00:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="بيوت منورة - الموسم الأول | د.هالة سمير" title="بيوت منورة - الموسم الأول | د.هالة سمير" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/هالة-سمير/بيوت-منورة-الموسم-الأول.xml" htmlUrl="https://www.youtube.com/@halasamir" />
+    <outline text="بيوت منورة - الموسم الثاني | د.هالة سمير" title="بيوت منورة - الموسم الثاني | د.هالة سمير" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/هالة-سمير/بيوت-منورة-الموسم-الثاني.xml" htmlUrl="https://www.youtube.com/@halasamir" />
+    <outline text="بيوت منورة - الموسم الثالث | د.هالة سمير" title="بيوت منورة - الموسم الثالث | د.هالة سمير" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/هالة-سمير/بيوت-منورة-الموسم-الثالث.xml" htmlUrl="https://www.youtube.com/@halasamir" />
+    <outline text="بيوت منورة - الموسم الرابع | د.هالة سمير" title="بيوت منورة - الموسم الرابع | د.هالة سمير" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/هالة-سمير/بيوت-منورة-الموسم-الرابع.xml" htmlUrl="https://www.youtube.com/@halasamir" />
+    <outline text="بيوت منورة - الموسم الخامس | د.هالة سمير" title="بيوت منورة - الموسم الخامس | د.هالة سمير" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/هالة-سمير/بيوت-منورة-الموسم-الخامس.xml" htmlUrl="https://www.youtube.com/@halasamir" />
+  </body>
+
+</opml>
