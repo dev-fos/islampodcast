@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ محمد حسين يعقوب</title>
+    <dateCreated>24 Mar 26 20:36:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="هدىً وشفاء 1 | الشيخ / محمد حسين يعقوب" title="هدىً وشفاء 1 | الشيخ / محمد حسين يعقوب" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-حسين-يعقوب/هدىً-وشفاء-1.xml" htmlUrl="https://www.youtube.com/@RabaniaTube" />
+    <outline text="هدىً وشفاء 2 | الشيخ / محمد حسين يعقوب" title="هدىً وشفاء 2 | الشيخ / محمد حسين يعقوب" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-حسين-يعقوب/هدىً-وشفاء-2.xml" htmlUrl="https://www.youtube.com/@RabaniaTube" />
+    <outline text="هدىً وشفاء 3 | الشيخ / محمد حسين يعقوب" title="هدىً وشفاء 3 | الشيخ / محمد حسين يعقوب" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-حسين-يعقوب/هدىً-وشفاء-3.xml" htmlUrl="https://www.youtube.com/@RabaniaTube" />
+  </body>
+
+</opml>
