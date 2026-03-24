@@ -23,7 +23,7 @@
 | القرآن الكريم (رواية حفص عن عاصم) | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/Quran_Hafs.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/Quran_Hafs.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ مشاري الخراز | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/MeshariAlkharaz.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/MeshariAlkharaz.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | د. هالة سمير | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/halasamir.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/halasamir.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
-
+| الشيخ محمد حسين يعقوب | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/yaqob.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/yaqob.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 </div>
 
 ----
