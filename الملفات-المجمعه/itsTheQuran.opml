@@ -6,6 +6,8 @@
   </head>
   <body>
     <outline text="هدى للناس | د. أحمد عبدالمنعم" title="هدى للناس | د. أحمد عبدالمنعم" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أحمد-عبدالمنعم/هدى-للناس.xml" htmlUrl="https://www.youtube.com/channel/UCDlHNz7RAK0vAl5eIKNxrjg" />
+    <outline text="تربويات | د. أحمد عبدالمنعم" title="تربويات | د. أحمد عبدالمنعم" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أحمد-عبدالمنعم/تربويات.xml" htmlUrl="https://www.youtube.com/playlist?list=PLnpYU8_AiEPc2iOrUi2wv8GHhKaCuHPJd" />
+    <outline text="عن القرآن | د. أحمد عبدالمنعم" title="عن القرآن | د. أحمد عبدالمنعم" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أحمد-عبدالمنعم/عن-القرآن.xml" htmlUrl="https://www.youtube.com/playlist?list=PLnpYU8_AiEPewP5IKNKO2Wr8x_s6LG6b5" />
   </body>
 
 </opml>
