@@ -25,6 +25,9 @@
 | د. هالة سمير | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/halasamir.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/halasamir.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ محمد حسين يعقوب | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/yaqob.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/yaqob.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ محمد الغليظ | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/mohelghaleez.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/mohelghaleez.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| د. أحمد عبدالمنعم | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/itsTheQuran.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/itsTheQuran.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| د. حازم شومان | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/DrHazemShouman.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/DrHazemShouman.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+
 </div>
 
 ----
