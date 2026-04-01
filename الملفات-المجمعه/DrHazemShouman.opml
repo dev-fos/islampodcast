@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | د. حازم شومان</title>
+    <dateCreated>01 Apr 26 17:50:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="خطب الجمعة | د. حازم شومان" title="خطب الجمعة | د. حازم شومان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/حازم-شومان/خطب-الجمعة.xml" htmlUrl="https://www.youtube.com/playlist?list=PLVPp4tYPys9MxsCWyA5z60h55qMTheKjz" />
+    <outline text="دروس مسجد مصعب بن عمير | د. حازم شومان" title="دروس مسجد مصعب بن عمير | د. حازم شومان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/حازم-شومان/دروس-مسجد-مصعب-بن-عمير.xml" htmlUrl="https://www.youtube.com/playlist?list=PLVPp4tYPys9MvIjVaQiMhoujSujBo4LfJ" />
+    <outline text="ختمة تعارف | د. حازم شومان" title="ختمة تعارف | د. حازم شومان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/حازم-شومان/ختمة-تعارف.xml" htmlUrl="https://www.youtube.com/playlist?list=PLVPp4tYPys9MtkoERFPfepEll78gK5oM8" />
+  </body>
+
+</opml>
