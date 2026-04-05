@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ - محمد خيري</title>
+    <dateCreated>05 Apr 26 05:03:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="إطلالة سريعة على أجمل سيرة | الشيخ - محمد خيري" title="إطلالة سريعة على أجمل سيرة | الشيخ - محمد خيري" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-خيري/سلسلة-إطلالة-سريعة-على-أجمل-سيرة.xml" htmlUrl="https://www.youtube.com/playlist?list=PLPq7duxpJ2hRtjlDWPOwx-8mxFXel0kC4" />
+    <outline text="حدِّثنا عن الجنة | الشيخ - محمد خيري" title="حدِّثنا عن الجنة | الشيخ - محمد خيري" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-خيري/سلسلة-حدِّثنا-عن-الجنة.xml" htmlUrl="https://www.youtube.com/playlist?list=PLPq7duxpJ2hSf_Evx8-MxOaVK_wnZnAMK" />
+    <outline text="قد أفلح من زكاها | الشيخ - محمد خيري" title="قد أفلح من زكاها | الشيخ - محمد خيري" type="rss" xmlUrl="https/://raw.githubusercontent.com/dev-fos/islampodcast/main/محمد-خيري/سلسلة-قد-أفلح-من-زكاها.xml" htmlUrl="https://www.youtube.com/playlist?list=PLPq7duxpJ2hQtKZ3rGXcvF9O3enmjKX5q" />
+  </body>
+
+</opml>
