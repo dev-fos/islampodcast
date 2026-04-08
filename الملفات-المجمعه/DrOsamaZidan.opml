@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | د. أسامة زيدان</title>
+    <dateCreated>08 Apr 26 06:03:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="أسس وقواعد بناء الشخصية الناجحة | د. أسامة زيدان" title="أسس وقواعد بناء الشخصية الناجحة | د. أسامة زيدان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أسامة-زيدان/أسس-وقواعد-بناء-الشخصية-الناجحة.xml" htmlUrl="http://www.youtube.com/@Dr.OsamaZidan" />
+    <outline text="برنامج مفاهيم أسرية | د. أسامة زيدان" title="برنامج مفاهيم أسرية | د. أسامة زيدان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أسامة-زيدان/برنامج-مفاهيم-أسرية.xml" htmlUrl="http://www.youtube.com/@Dr.OsamaZidan" />
+    <outline text="برنامج مفاهيم تربوية | د. أسامة زيدان" title="برنامج مفاهيم تربوية | د. أسامة زيدان" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/أسامة-زيدان/برنامج-مفاهيم-تربوية.xml" htmlUrl="http://www.youtube.com/@Dr.OsamaZidan" />
+  </body>
+
+</opml>
