@@ -28,6 +28,7 @@
 | د. أحمد عبدالمنعم | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/itsTheQuran.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/itsTheQuran.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | د. حازم شومان | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/DrHazemShouman.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/DrHazemShouman.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ / محمد خيري | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/AyatQuranCenter.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/AyatQuranCenter.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| د. أسامة زيدان | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/DrOsamaZidan.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/DrOsamaZidan.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 
 </div>
 
