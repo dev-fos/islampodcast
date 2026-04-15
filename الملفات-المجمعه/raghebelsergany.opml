@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | د. راغب السرجاني</title>
+    <dateCreated>15 Apr 26 17:29:31 +0200</dateCreated>
+  </head>
+  <body>
+    <outline text="قصة صقلية من الفتح إلى السقوط | د. راغب السرجاني" title="قصة صقلية من الفتح إلى السقوط | د. راغب السرجاني" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/راغب-السرجاني/قصة-صقلية-من-الفتح-إلى-السقوط.xml" htmlUrl="http://www.youtube.com/@raghebelsergany" />
+    <outline text="رقائق تاريخية  | د. راغب السرجاني" title="رقائق تاريخية  | د. راغب السرجاني" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/راغب-السرجاني/رقائق-تاريخية.xml" htmlUrl="http://www.youtube.com/@raghebelsergany" />
+    <outline text="رقائق تاريخية الجزء الثاني  | د. راغب السرجاني" title="رقائق تاريخية الجزء الثاني  | د. راغب السرجاني" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/راغب-السرجاني/رقائق-تاريخية-الجزء-الثاني.xml" htmlUrl="http://www.youtube.com/@raghebelsergany" />
+    <outline text="قصة الخلافة الراشدة  | د. راغب السرجاني" title="قصة الخلافة الراشدة  | د. راغب السرجاني" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/راغب-السرجاني/قصة-الخلافة-الراشدة.xml" htmlUrl="http://www.youtube.com/@raghebelsergany" />
+  </body>
+
+</opml>
