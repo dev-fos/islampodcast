@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:a10="http://www.w3.org/2005/Atom" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel permissionRevoked="" notes="">
-    <title>صحيح البخاري (الشرح الأول) | الشيخ / ابن باز</title>
+    <title>صحيح البخاري (الشرح الأول) | الشيخ - ابن باز</title>
     <link>https://binbaz.org.sa/</link>
     <description>• كتاب نفيس روى فيه الامام البخاري الأحاديث الصحيحة الثابتة عن رسول الله - صلى الله عليه وسلم - وسماه « الصحيح المسند من حديث رسول الله صلى الله عليه وسلم وسننه وأيامه .
 • قال ابن كثير في البداية والنهاية: « وأجمع العلماء على قبوله - يعنى صحيح البخاري - وصحة ما فيه، وكذلك سائر أهل الإسلام ».
@@ -16,7 +16,7 @@
       <itunes:category text="Islam" />
     </itunes:category>
     <itunes:explicit>False</itunes:explicit>
-    <itunes:title>صحيح البخاري (الشرح الأول) | الشيخ / ابن باز</itunes:title>
+    <itunes:title>صحيح البخاري (الشرح الأول) | الشيخ - ابن باز</itunes:title>
     <itunes:author>إسلام بودكاست</itunes:author>
     <itunes:complete>Yes</itunes:complete>
     <itunes:type>Serial</itunes:type>
