@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>إسلام بودكاست | الشيخ - ابن باز</title>
+    <dateCreated>31 May 26 05:12:31 +0200</dateCreated>
+  </head>
+  <body>
+        <outline text="صحيح البخاري (الشرح الأول) | الشيخ ابن باز" title="صحيح البخاري (الشرح الأول) | الشيخ ابن باز" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/ابن-باز/صحيح-البخاري-(الشرح-الأول).xml" htmlUrl="https://binbaz.org.sa/" />
+        <outline text="رياض الصالحين (الشرح الأول) | الشيخ ابن باز" title="رياض الصالحين (الشرح الأول) | الشيخ ابن باز" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/ابن-باز/رياض-الصالحين-(الشرح-الأول).xml" htmlUrl="https://binbaz.org.sa/" />
+        <outline text="رياض الصالحين (الشرح الثاني) | الشيخ ابن باز" title="رياض الصالحين (الشرح الثاني) | الشيخ ابن باز" type="rss" xmlUrl="https://raw.githubusercontent.com/dev-fos/islampodcast/main/ابن-باز/رياض-الصالحين-(الشرح-الثاني).xml" htmlUrl="https://binbaz.org.sa/" />
+  </body>
+
+</opml>
