@@ -50,5 +50,7 @@
 
 > [mp3scraper](https://github.com/dev-fos/mp3scraper)
 
+> [Scrapling](https://github.com/D4Vinci/Scrapling)
+
 
 _اللهم إجعلنا مِن مَن يستمعون القول فيتبعون أحسنه_
