@@ -32,6 +32,9 @@
 | د. شريف طه يونس | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/BelWahinhya.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/BelWahinhya.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | د. راغب السرجاني | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/raghebelsergany.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/raghebelsergany.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
 | الشيخ / ابن باز  | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/binbaz.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/binbaz.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+| الشيخ د. عثمان الخميس  | [:floppy_disk:](https://github.com/dev-fos/islampodcast/releases/latest/download/othmanalkhamees.opml) | ![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/dev-fos/islampodcast/othmanalkhamees.opml?displayAssetName=false&style=for-the-badge&label=%F0%9F%93%A5&color=%234063E1) |
+
+
 
 </div>
 
