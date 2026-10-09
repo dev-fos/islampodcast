@@ -1,6 +1,7 @@
 sudo apt update && sudo apt upgrade -y
 
 cd /tmp
+
 wget https://github.com/bluenviron/mediamtx/releases/download/v1.21.2/mediamtx_v1.21.2_linux_amd64.tar.gz
 
 tar -xzf mediamtx_v1.21.2_linux_amd64.tar.gz
